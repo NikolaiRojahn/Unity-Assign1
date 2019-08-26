@@ -350,6 +350,7 @@ GameObject:
   - component: {fileID: 334623849}
   - component: {fileID: 334623848}
   - component: {fileID: 334623847}
+  - component: {fileID: 334623850}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -422,6 +423,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &334623850
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334623846}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &343686471 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000011176054850, guid: fd966ea2834ccfa4baa29c85172456e9,
@@ -442,6 +457,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cube: {fileID: 501379192}
   tank: {fileID: 343686471}
+--- !u!64 &343686474
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343686471}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &379607887
 GameObject:
   m_ObjectHideFlags: 0
